@@ -1,0 +1,13 @@
+---
+const {titulo, descripcion} = Astro.props
+---
+
+<article class="bg-[#1F2937] text-white max-w-sm px-5 py-6 flex flex-col gap-2 rounded">
+    <img
+        src="https://images.pexels.com/photos/12935052/pexels-photo-12935052.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        alt="imagenPost"
+        class="rounded"
+    />  
+    <h2 class="text-center text-2xl font-bold">{titulo}</h2>
+    <p class ="text-center">{descripcion}</p>
+</article>

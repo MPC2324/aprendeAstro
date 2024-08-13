@@ -1,0 +1,56 @@
+---
+import Tarjeta from "../components/Tarjeta.astro";
+import Barra from "../layouts/Barra.astro";
+---
+
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/LogoBurguer.png" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>HamburgueseríaSol</title>
+	</head>
+	<body>
+		<Barra>
+			<h1 class="text-center text-5xl font-bold text-yellow-500">
+				¡Nuevo horario ajustado a las nuevas medidas!
+			</h1>
+			<h2 class="text-center text-3xl font-bold mb-6 mt-3"></h2>
+			<div
+				class="flex max-w-7xl mx-auto w-full justify-center justify-items-center items-center gap-4"
+			>
+				<article
+					class="bg-[#1F2937] text-white max-w-sm px-5 py-6 flex flex-col gap-2 rounded"
+				>
+					<img
+						src="https://images.pexels.com/photos/12935052/pexels-photo-12935052.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+						alt="imagenPost"
+						class="rounded"
+					/>
+					<a
+						href="https://goo.gl/maps/FokPALZEZyFuXjED7"
+						class="text-center text-2xl font-bold hover:bg-yellow-500"
+						>Calle Sefarad nº8</a
+					>
+					<a class="text-center text-2xl font-bold hover:bg-yellow-500" href="tel:953261521">953261521</a>
+				</article>
+				<article
+					class="bg-[#1F2937] text-white max-w-sm px-5 py-6 flex flex-col gap-2 rounded"
+				>
+					<img
+						src="https://images.pexels.com/photos/12935052/pexels-photo-12935052.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+						alt="imagenPost"
+						class="rounded"
+					/>
+					<a
+						href="https://maps.app.goo.gl/MdTcgzV7TYVxWi9X9"
+						class="text-center text-2xl font-bold hover:bg-yellow-500"
+						>Paseo de España nº35</a
+					>
+					<a class="text-center text-2xl font-bold hover:bg-yellow-500" href="tel:953369636">953369636</a>
+				</article>
+			</div>
+		</Barra>
+	</body>
+</html>
