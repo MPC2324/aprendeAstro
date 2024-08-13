@@ -5,5 +5,6 @@ import tailwind from "@astrojs/tailwind";
 // https://astro.build/config
 export default defineConfig({
   site: 'https://MPC2324/github.io',
+  base: 'aprendeAstro',
   integrations: [tailwind()]
 });
